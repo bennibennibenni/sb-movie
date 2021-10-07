@@ -14,11 +14,13 @@
 
 If you are new contributor, please read this before doing more.
 
-+ Please **fork** before clone.
-+ After **fork** please clone from your repository.
-+ If success **clone** to your local computer
-+ Install dependencies by running `yarn install` within the directory that you cloned.
-+ Finish, please type `yarn start` for running development mode.
++ Please **fork / clone** this repository.
++ If success **fork / clone** to your local computer
++ Install dependencies by running `yarn install` / `npm install` within the directory that you cloned.
++ Finish, please type `yarn start` / `npm run start` for running development mode.
+
+## 🧪 Test
++ Please type `yarn test` / `npm run test` for running unit testing.
 
 ## 👷 Contributor
 
