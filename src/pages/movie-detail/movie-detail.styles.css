@@ -1,0 +1,46 @@
+.movie-detail {
+  padding: 20px;
+}
+
+.movie-detail:before,
+.movie-detail:after {
+  content: "";
+  display: table;
+}
+
+.movie-detail:after {
+  clear: both;
+}
+
+.movie-detail .poster-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  max-width: -webkit-fill-available;
+}
+
+.movie-detail h1 {
+  margin: 0;
+}
+
+.movie-detail .plot {
+  font-size: 18px;
+}
+
+.movie-detail p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.movie-detail .separating-info li {
+  font-size: 15px;
+}
+
+.movie-page {
+  height: 100%;
+  padding: 20px;
+  text-align: left;
+  background: #252936;
+  border-radius: 30px;
+  color: white;
+}

@@ -1,0 +1,67 @@
+.form-search {
+  margin: 20px 0;
+  position: relative;
+}
+
+.form-search .form-group {
+  display: flex;
+}
+
+.form-search #searchMovies {
+  width: 85%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  padding: 0 25px 0 15px;
+  border-radius: 10px;
+  background: #252936;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.form-search #searchMovies:focus {
+  outline: none;
+}
+
+.form-search button[type="submit"] {
+  top: 0;
+  bottom: 0;
+  background-color: #252936;
+  border-radius: 15px;
+  width: 10%;
+  color: white;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-search ul.options {
+  background-color: #f5f5f5;
+  color: #555;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  width: 88%;
+  border-radius: 8px;
+}
+
+.form-search ul.options li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.form-search ul.options li:hover,
+.form-search ul.options li.selected {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}

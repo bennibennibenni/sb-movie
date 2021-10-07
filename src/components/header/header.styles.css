@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container {
+  width: 100%;
+  padding: 30px;
+  background: #252936;
+  border-radius: 30px;
+  color: white;
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+  float: left;
+  margin: 40px;
+  margin-bottom: 0;
+  place-content: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.text-title {
+  margin-left: 35px;
+  font-size: 34px;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+h3 {
+  color: white;
+  text-decoration: underline;
+}
+
+.submit-text {
+  font-family: -apple-system, "Baloo Tammudu 2", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+  font-weight: bold;
+}

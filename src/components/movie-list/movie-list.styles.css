@@ -1,0 +1,63 @@
+.card-movie.checkpoint {
+  height: 0;
+  margin: 0;
+}
+
+.card-movie .content-wrap:before,
+.card-movie .content-wrap:after {
+  content: "";
+  display: table;
+}
+
+.card-movie .content-wrap:after {
+  clear: both;
+}
+
+.card-movie .content-wrap h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-movie .poster {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  float: left;
+  margin-right: 20px;
+}
+
+.card-movie .poster:hover {
+  cursor: pointer;
+}
+
+.card-movie .link-more-info {
+  color: cadetblue;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.card-movie {
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-movie .content-wrap {
+  height: 100%;
+  padding: 20px;
+  text-align: left;
+  background: #252936;
+  border-radius: 30px;
+  color: white;
+}

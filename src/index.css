@@ -1,0 +1,16 @@
+body {
+  background: #1f1d2b;
+  margin: 0;
+  font-family: -apple-system, "Baloo Tammudu 2", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::placeholder {
+  font-family: -apple-system, "Baloo Tammudu 2", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  opacity: 1;
+}
