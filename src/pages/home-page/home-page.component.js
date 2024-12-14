@@ -53,7 +53,7 @@ const HomePage = (props) => {
   const getMoviesList = async (searchQuery = "Avenger", pageNumber = 1) => {
     try {
       setIsLoading(true);
-      const url = `http://www.omdbapi.com/?apikey=399d6c20&s=${encodeURIComponent(
+      const url = `http://www.omdbapi.com/?apikey=5a58dd7&s=${encodeURIComponent(
         searchQuery
       )}&page=${pageNumber}`;
       const result = await axios.get(url);
