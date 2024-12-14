@@ -38,7 +38,7 @@ const MovieDetail = () => {
 
   const getMovieDetail = async (imdbID) => {
     try {
-      const url = `http://www.omdbapi.com/?apikey=369f7d44&i=${encodeURIComponent(
+      const url = `http://www.omdbapi.com/?apikey=399d6c20&i=${encodeURIComponent(
         imdbID
       )}`;
       const result = await axios.get(url);
